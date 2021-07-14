@@ -197,3 +197,77 @@ footer{
     margin-top: 20px;
     padding-bottom: 70px;
 }
+
+
+
+
+/* -------media quary style------- */
+
+/* phone responsive */
+
+
+@media only screen and (max-width:688px) {
+    
+ 
+    .nav{
+        display: none;
+    }
+
+    .bannar{
+        display: block !important;
+    }
+
+    .bannar-detail{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    
+    .bannar-text{
+      font-size: 45px;
+      margin-left: 90px;
+      font-weight: 600;
+    }
+
+    .buttun{
+        margin-left: 90px;
+    }
+
+    .bannar-img img{
+        width: 310px;
+        height: 210px;
+        margin-left: -90px;
+    }
+
+
+    .top-players{
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+ 
+
+    .hilight-area{
+        display: block;
+    }
+
+    .all-hilight{
+        width: 100% !important;
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+
+    .hilight-img img{
+        width: 300px;
+    }
+
+    .footer-icon{
+        margin-left: 70px !important;
+     }
+
+     
+    .copy-right{
+        margin-left: 70px;
+    }
+    
+}
+
