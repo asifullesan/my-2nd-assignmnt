@@ -22,7 +22,6 @@ header{
 
 .container{
     width: 1100px;
-    height: 555px;
 }
 
 .nav{
@@ -72,7 +71,7 @@ header{
 
 .bannar-detail{
     width: 40%;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .buttun{
@@ -83,14 +82,118 @@ header{
 
 .buttun a{
     padding-right: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 .bannar-img{
     margin-left: 130px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .bannar-img img{
-    width: 530px;
-    height: 430px;
+    width: 510px;
+    height: 410px;
+}
+
+
+
+/* -----player style----- */
+
+.player-pfofile{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+.player-section{
+    width: 75%;
+   
+}
+
+.top-players{
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player{
+    padding: 10px;
+    box-shadow: 0 0 15px rgb(185, 176, 176);
+   
+}
+
+.player img{
+    height: 250px;
+    width: 100%;
+}
+
+/* ---------hilight style----- */
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+
+
+
+
+.hilight-area{
+    display: flex;
+    
+    width: 75%;
+   
+}
+
+.hilight-area h1{
+    font-size: 45px;
+}
+
+.all-hilight{
+    width: 70%;
+    padding-right: 25px;
+}
+
+.hilight-img img{
+    width: 500px;
+}
+
+
+
+/* -----footer style---- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.footer-logo img{
+    width: 350px;
+}
+
+.footer-icon{
+   margin-left: 100px !important;
+   font-size: 20px;
+}
+
+.icon{
+    border: 1px solid gray;
+    color: gray;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+
+.copy-right{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 70px;
 }
