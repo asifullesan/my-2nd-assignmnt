@@ -1,0 +1,96 @@
+/* --- import area --- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* --- body style --- */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --- header style --- */
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(48, 35, 168);
+}
+
+.container{
+    width: 1100px;
+    height: 555px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-top: 30px;
+
+}
+
+.nav-item a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.login{
+    background-color: rgb(222, 49, 99);
+    padding: 10px 25px ;
+    display: flex;
+    align-items: center;
+}
+
+.fas{
+    font-size: 20px;
+    color: white;
+}
+.login a,  .watch-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.bannar{
+    display: flex;
+}
+
+.bannar-text{
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.bannar-detail{
+    width: 40%;
+    margin-top: 80px;
+}
+
+.buttun{
+    width: 130px;
+    background-color: rgb(222, 49, 99);
+    padding: 10px 25px;
+}
+
+.buttun a{
+    padding-right: 10px;
+}
+
+.bannar-img{
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.bannar-img img{
+    width: 530px;
+    height: 430px;
+}
